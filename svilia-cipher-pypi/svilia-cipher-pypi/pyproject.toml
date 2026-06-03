@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "svilia-cipher"
+version = "1.0.0"
+description = "Classical Cryptography Terminal Suite — Encrypt, decrypt, crack. In the terminal."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = []
+keywords = ["cryptography", "cipher", "terminal", "tui", "caesar", "vigenere", "encryption"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console :: Curses",
+    "Topic :: Security :: Cryptography",
+]
+
+[project.scripts]
+svilia-cipher = "svilia_cipher.__main__:main"

@@ -1,0 +1,2 @@
+[console_scripts]
+svilia-cipher = svilia_cipher.__main__:main

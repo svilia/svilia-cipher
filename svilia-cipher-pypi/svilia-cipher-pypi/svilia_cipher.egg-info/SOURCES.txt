@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+svilia_cipher/__init__.py
+svilia_cipher/__main__.py
+svilia_cipher.egg-info/PKG-INFO
+svilia_cipher.egg-info/SOURCES.txt
+svilia_cipher.egg-info/dependency_links.txt
+svilia_cipher.egg-info/entry_points.txt
+svilia_cipher.egg-info/top_level.txt
