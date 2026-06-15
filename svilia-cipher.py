@@ -29,6 +29,7 @@ import string
 import json
 import re
 import argparse
+import base64
 from collections import Counter
 
 # ─────────────────────────────────────────────────────────────────────────────
